@@ -1,0 +1,259 @@
+/* Base */
+
+body,
+body *:not(html):not(style):not(br):not(tr):not(code) {
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    position: relative;
+}
+
+body {
+    -webkit-text-size-adjust: none;
+    background-color: #fcfcfc; /* Neutral Light Gray */
+    color: #4b5563; /* Text-gray-600 */
+    height: 100%;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    width: 100% !important;
+}
+
+p,
+ul,
+ol,
+blockquote {
+    line-height: 1.6;
+    text-align: start;
+}
+
+a {
+    color: #800000; /* Maroon Theme */
+    text-decoration: underline;
+}
+
+a img {
+    border: none;
+}
+
+/* Typography */
+
+h1 {
+    color: #111827; /* Near Black */
+    font-size: 20px;
+    font-weight: 800; /* Extra Bold for Luxury feel */
+    margin-top: 0;
+    text-align: start;
+    letter-spacing: -0.02em;
+}
+
+h2 {
+    font-size: 17px;
+    font-weight: 700;
+    margin-top: 0;
+    text-align: start;
+    color: #111827;
+}
+
+h3 {
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 0;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #800000;
+}
+
+p {
+    font-size: 15px;
+    line-height: 1.6em;
+    margin-top: 0;
+    text-align: left;
+}
+
+p.sub {
+    font-size: 12px;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Layout */
+
+.wrapper {
+    background-color: #fcfcfc;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.content {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+/* Header */
+
+.header {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.header a {
+    color: #800000;
+    font-size: 22px;
+    font-weight: 800;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+}
+
+/* Logo */
+
+.logo {
+    height: auto;
+    margin-bottom: 15px;
+    max-height: 60px;
+    width: auto;
+}
+
+/* Body */
+
+.body {
+    background-color: #fcfcfc;
+    border: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.inner-body {
+    background-color: #ffffff;
+    border-color: #f3f4f6;
+    border-radius: 16px; /* Rounded consistent with UI */
+    border-width: 1px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+    margin: 0 auto;
+    padding: 0;
+    width: 570px;
+}
+
+/* Subcopy */
+
+.subcopy {
+    border-top: 1px solid #f3f4f6;
+    margin-top: 30px;
+    padding-top: 25px;
+}
+
+.subcopy p {
+    font-size: 13px;
+    color: #9ca3af;
+}
+
+/* Footer */
+
+.footer {
+    margin: 0 auto;
+    padding: 40px 0;
+    text-align: center;
+    width: 570px;
+}
+
+.footer p {
+    color: #9ca3af;
+    font-size: 11px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+/* Tables */
+
+.table table {
+    margin: 30px auto;
+    width: 100%;
+}
+
+.table th {
+    border-bottom: 1px solid #f3f4f6;
+    color: #800000;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    padding-bottom: 12px;
+}
+
+.table td {
+    color: #4b5563;
+    font-size: 14px;
+    line-height: 18px;
+    padding: 12px 0;
+}
+
+.content-cell {
+    padding: 45px; /* More white space for luxury feel */
+}
+
+/* Buttons */
+
+.action {
+    margin: 35px auto;
+    text-align: center;
+    width: 100%;
+}
+
+.button {
+    border-radius: 12px; /* More rounded */
+    color: #ffffff !important;
+    display: inline-block;
+    font-weight: 700;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    text-decoration: none;
+    transition: background-color 0.2s;
+}
+
+.button-primary {
+    background-color: #800000; /* CIVIC Maroon */
+    border-bottom: 12px solid #800000;
+    border-left: 24px solid #800000;
+    border-right: 24px solid #800000;
+    border-top: 12px solid #800000;
+}
+
+.button-success {
+    background-color: #16a34a;
+    border-bottom: 12px solid #16a34a;
+    border-left: 24px solid #16a34a;
+    border-right: 24px solid #16a34a;
+    border-top: 12px solid #16a34a;
+}
+
+/* Panels */
+
+.panel {
+    border-left: #800000 solid 4px;
+    margin: 30px 0;
+}
+
+.panel-content {
+    background-color: #fff1f1; /* Very light red tint */
+    color: #800000;
+    padding: 20px;
+    border-radius: 0 12px 12px 0;
+}
+
+.panel-content p {
+    color: #800000;
+    font-weight: 500;
+}
+
+/* Utilities */
+
+.break-all {
+    word-break: break-all;
+}
